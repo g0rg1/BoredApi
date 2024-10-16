@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BoredAPI</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/boring.png" alt="logo">
+        <p class="naming">BoringEvening</p>
+        <button  id="random">Get Random Activity</button>
+    </header>
+    <main>
+        <div class="main">
+        <div class="description-container">
+            <p>There you can find some <br> random activities or find<br> your activity by specified<br> type</p>
+        </div>
+        <div class="find-container">
+            <p>Find your activity by provided type's</p>
+            <div class="types">
+                <button onclick="typedActivity('education')"><i class="fa-solid fa-school"></i></button>
+                <button onclick="typedActivity('recreational')"><i class="fa-solid fa-umbrella-beach"></i></button>
+                <button onclick="typedActivity('social')"><i class="fa-solid fa-thumbs-up"></i></button>
+                <button onclick="typedActivity('charity')"><i class="fa-solid fa-hand-holding-heart"></i></button>
+                <button onclick="typedActivity('cooking')"><i class="fa-solid fa-utensils"></i></button>
+                <button onclick="typedActivity('relaxation')"><i class="fa-solid fa-heart"></i></button>
+                <button onclick="typedActivity('busywork')"><i class="fa-solid fa-briefcase"></i></button>
+            </div>
+        </div>
+    </div>
+    <p id="result-type"></p>
+        <div id="result-container" class="result-container">
+            <p class="name" id="name"></p>
+            <p class="participant" id="partisipant"></p>
+            <p class="price" id="price"></p>
+            <p class="type" id="type"></p>
+        </div>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/7d53bfb516.js" crossorigin="anonymous"></script>
+</body>
+</html>

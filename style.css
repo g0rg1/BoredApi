@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+.logo{
+    height: 70px;
+}
+.naming{
+    font-size: 30px;
+    color: #4671c6;
+}
+#random{
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 2px solid #4671c6;
+    color: #4671c6;
+    background: none;
+    transition: all 0.5s;
+}
+#random:hover{
+    background: #4671c6;
+    color: white;
+}
+#random:active{
+    background: hsl(220, 53%, 83%);
+    color: white;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.description-container{
+    width: 300px;
+    height: 200px;
+    background-color: #4671c6;
+    border-radius: 25px;
+}
+.description-container p{
+    color: white;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.find-container{
+    width: 400px;
+    height: 200px;
+    background: #4671c6;
+    border-radius: 25px;
+    color: white;
+}
+.find-container p{
+    margin:5px 10px;
+    font-size: 25px;
+}
+.types{
+    margin: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.types button{
+    padding: 5px 10px;
+    background: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: #4671c6;
+    transition: all 0.3s;
+}
+.types button:hover{
+    background: #4671c6;
+    color: white;
+    border: 1px solid #4671c6 ;
+}
+.result-container{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #4671c6;
+    height: 200px;
+    border-radius: 50px;
+}
+.result-container p {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: #4671c6;
+    background-color: white;
+    height: 30px;
+    width: 800px;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.result-container p:hover{
+    background-color: #4671c6;
+    color: white;
+}
+#result-type{
+    margin-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    color: #4671c6;
+}
